@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Canvas styling */
+  .canvas {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Button colors */
+  #grey {
+    background-color: #808080;
+  }
+  
+  #white {
+    background-color: #fff;
+  }
+  
+  #blue {
+    background-color: #007bff;
+  }
+  
+  #yellow {
+    background-color: #ffd700;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    font-size: 1.3em;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 5px 0;
+    }
+  }
+  
